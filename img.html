@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Practical</title>
+</head>
+<body>
+    <img src ="of.jpeg" id="img1">
+
+    <script>
+        function on()
+        {
+            document.getElementById("img1").src= "on.jpeg";
+
+        }
+        function of(){
+            document.getElementById("img1").src= "of.jpeg"
+
+        }
+    </script>
+    <button type="button" onclick="on()">turn on light </button>
+    <button type="button" onclick="of()"> turn of light</button>
+</body>
+</html>
