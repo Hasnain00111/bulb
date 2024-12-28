@@ -1,4 +1,4 @@
-let marks =[50,40,20];
+/*let marks =[50,40,20];
 console.log(marks);
  let heroes = ["ironman","ramcharan","yash","bilal"]
  console.log(heroes[0]);
