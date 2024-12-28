@@ -460,7 +460,7 @@ let mode = "light"
  }else{
    color = "white"
  }
-console.log(color);*/
+console.log(color);
 
 
 let age = 20;
@@ -519,6 +519,7 @@ if (password === "ahmed"){
    console.log(false)
 }
 
-console.log("correct");
+console.log("correct");*/
 
- 
+console.log("ahmed")
+
