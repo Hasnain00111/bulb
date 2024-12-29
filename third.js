@@ -524,3 +524,38 @@ console.log("correct");*/
 console.log("ahmed")
 console.log("hello");
 
+
+// function in js
+function MyName(){
+   console.log("i am hasnain ahmed");
+   console.log("i am sixteen year old");
+   
+   
+}
+MyName();
+MyName();
+
+function mySkills(mk){
+   console.log(mk)
+}
+mySkills("i am professional webdeveloper and digital marketer");
+
+function sumoftownum(x,y){
+   console.log(x,y);
+   
+}
+sumoftownum(8+4);
+sumoftownum(12+4)
+
+const arrowsum = (a,b) => {
+   console.log(a + b);
+   
+}
+// multiply
+function mul(a,b){
+   return a*b;
+}
+const arrowMul = (a,b) => {
+   console.log(a*b);
+}
+arrowMul(3,4)
