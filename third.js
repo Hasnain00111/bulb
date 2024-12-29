@@ -521,7 +521,7 @@ if (password === "ahmed"){
 
 console.log("correct");*/
 
-console.log("ahmed")
+/*console.log("ahmed")
 console.log("hello");
 
 
@@ -559,3 +559,45 @@ const arrowMul = (a,b) => {
    console.log(a*b);
 }
 arrowMul(3,4)
+
+
+
+function countVowels(str){
+   let count = 0;}
+   for (const char of str){
+      if(char ==="a" || char === "e" || char ==="i" || char === "o" || char ==="u" )
+         {
+         count++;
+      }
+ 
+   }
+   console.log(count);
+   
+
+countVowels("aeiou");*/
+
+
+
+let arr = [1,2,3,4,5];
+arr.forEach((val) => {
+   console.log(val)
+});
+
+
+let nums = [2,3,4,5,6]
+
+nums.forEach((nums) => {
+   console.log(nums**2)
+})
+
+let number = [7,8,9,10]
+number.forEach((number)=> {
+   console.log(number**2);
+   
+})
+
+let value = [4,5,7,9]
+let newArr = value.map((solution)=>{
+   return solution * 2 ;
+})
+console.log(newArr);
