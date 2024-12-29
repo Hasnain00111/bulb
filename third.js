@@ -601,3 +601,10 @@ let newArr = value.map((solution)=>{
    return solution * 2 ;
 })
 console.log(newArr);
+
+let agg = [1,4,5,6,,9,6,2]
+let evenArr = agg.filter((val)=> {
+   return val % 2 === 0 ;
+})
+
+console.log(evenArr)
