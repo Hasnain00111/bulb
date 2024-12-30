@@ -608,3 +608,11 @@ let evenArr = agg.filter((val)=> {
 })
 
 console.log(evenArr)
+
+
+let ff = [12,44,79,90,7,5,3]
+let oddArr = ff.filter((val)=>{
+   return val % 3=== 0
+}
+)
+console.log(oddArr)
