@@ -578,7 +578,7 @@ countVowels("aeiou");*/
 
 
 
-let arr = [1,2,3,4,5];
+/*let arr = [1,2,3,4,5];
 arr.forEach((val) => {
    console.log(val)
 });
@@ -616,3 +616,49 @@ let oddArr = ff.filter((val)=>{
 }
 )
 console.log(oddArr)
+  
+let btn1 = document.querySelector("type");
+btn1.onclick = ()=> {
+   console.log("btn1 was clicked");
+   let a = 26;
+   console.log(a)
+}
+
+let modeBtn = document.querySelector("#mode");
+
+modeBtn.addEventListener("click", () => {
+   console.log("you are trypin to change mode")
+})
+let currMode = "light";
+if (currMode === "light"){
+   currMode = "dark";
+
+}else{
+   currMode = "light"
+
+   console.log(currMode);
+   
+}*/
+
+
+const JsUser = {
+   name:"Hasnain Ahmed",
+   age:16,
+   location :"gilgit baltistan ",
+   email:"ahmed@gmial.com",
+   isLoggedIn :false,
+   lastLoginDays:["moday","friday"]
+}
+
+console.log(JsUser.email)
+   
+JsUser.email= "necrox@microsoft.com"
+Object.freeze(JsUser)
+JsUser.email= "necrox@microsoft.com"
+console.log(JsUser);
+
+JsUser.greeting= function(){
+   console.log("hello js user")
+}
+
+console.log(JsUser.greeting);
