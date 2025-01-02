@@ -660,5 +660,5 @@ console.log(JsUser);
 JsUser.greeting= function(){
    console.log("hello js user")
 }
-
+JsUser.email="ali@gmail"
 console.log(JsUser.greeting);
