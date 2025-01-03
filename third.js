@@ -662,3 +662,12 @@ JsUser.greeting= function(){
 }
 JsUser.email="ali@gmail"
 console.log(JsUser.greeting);
+
+
+
+
+// for loop in js
+for (let num=1; num<=6 ;num++){
+   console.log("write the numbers in sequence");
+   
+}
