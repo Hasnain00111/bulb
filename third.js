@@ -701,3 +701,5 @@ for (let num=1; num<=6 ;num++){
  }
 
  ali.__proto__=employee;
+
+ console.log("i am studig about object and classes")
