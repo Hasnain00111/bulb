@@ -671,3 +671,33 @@ for (let num=1; num<=6 ;num++){
    console.log("write the numbers in sequence");
    
 }
+
+// object and classes in js
+ const students = {
+   fullName:"hasnain ahemd",
+   marks:100,
+   printMarks: function(){
+      console.log("marks =",this.marks)
+   }
+ }
+ const employee = {
+   calcTax() {
+      console.log("tax rate is 10%");
+      
+   }
+ }
+ 
+ const ali = {
+   salary:6000,
+ }
+ const ahemd ={
+   salary:6000,
+ }
+ const danish = {
+   salary:6000,
+ }
+ const ullah = {
+   salary:6000,
+ }
+
+ ali.__proto__=employee;
