@@ -705,3 +705,39 @@ for (let num=1; num<=6 ;num++){
  console.log("i am studig about object and classes")
 
  console.log("that is something about object")
+
+ // Using a 'for' loop
+console.log("Using a for loop:");
+for (let i = 1; i <= 5; i++) {
+  console.log(`Iteration ${i}`);
+}
+
+// Using a 'while' loop
+console.log("\nUsing a while loop:");
+let count = 1;
+while (count <= 5) {
+  console.log(`Count is ${count}`);
+  count++;
+}
+
+// Using a 'do-while' loop
+console.log("\nUsing a do-while loop:");
+let number = 1;
+do {
+  console.log(`Number is ${number}`);
+  number++;
+} while (number <= 5);
+
+// Using a 'for...of' loop
+console.log("\nUsing a for...of loop:");
+const fruits = ["apple", "banana", "cherry"];
+for (const fruit of fruits) {
+  console.log(fruit);
+}
+
+// Using a 'for...in' loop
+console.log("\nUsing a for...in loop:");
+const car = { brand: "Tesla", model: "Model 3", year: 2021 };
+for (const key in car) {
+  console.log(`${key}: ${car[key]}`);
+}
