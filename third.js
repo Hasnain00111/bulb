@@ -741,3 +741,35 @@ const car = { brand: "Tesla", model: "Model 3", year: 2021 };
 for (const key in car) {
   console.log(`${key}: ${car[key]}`);
 }
+
+
+
+
+// Mini Calculator Function
+function miniCalculator(num1, num2, operation) {
+   switch (operation) {
+       case "add":
+           return num1 + num2;
+       case "subtract":
+           return num1 - num2;
+       case "multiply":
+           return num1 * num2;
+       case "divide":
+           if (num2 === 0) {
+               return "Error: Division by zero!";
+           }
+           return num1 / num2;
+       default:
+           return "Invalid operation! Use 'add', 'subtract', 'multiply', or 'divide'.";
+   }
+}
+
+// Example usage
+const number1 = 10;
+const number2 = 5;
+
+console.log("Addition:", miniCalculator(number1, number2, "add")); // 15
+console.log("Subtraction:", miniCalculator(number1, number2, "subtract")); // 5
+console.log("Multiplication:", miniCalculator(number1, number2, "multiply")); // 50
+console.log("Division:", miniCalculator(number1, number2, "divide")); // 2
+console.log("Invalid Operation:", miniCalculator(number1, number2, "modulus")); // Invalid operation!
